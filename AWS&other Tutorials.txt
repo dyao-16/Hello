@@ -1,0 +1,51 @@
+
+// Request
+
+
+A Request instance represents the requested piece of a fetch() call. By passing the fetch() Request, you can make advanced and customized requests:
+method – GET, POST, PUT, DELETE, HEAD
+url – URL of the request
+headers – associated Headers object
+referrer – referrer of the request
+mode – cors, no-cors, same-origin
+credentials – should cookies go with the request? omit, same-origin
+redirect – follow, error, manual
+integrity – subresource integrity value
+cache – cache mode (default, reload, no-cache)
+
+
+// GET requests
+
+Here, we get a response, and the response is Stream object and the response we get is not JSON but a simple Javascript object with a series of methods that we can use further to process our data whichever way we want.
+clone() – This method implies this method creates a clone of the response.
+json() – This method resolves the promise with JSON.
+redirect() – This method creates a new response but with a different URL.
+text() – In this case, it resolves with a string.
+arrayBuffer() – In here we return a promise that resolves with an ArrayBuffer.
+blob() – This is one determines with a Blob.
+formData() – Also returns a promise but one that determines with FormData object.
+
+
+
+
+// SQS AND LAMBDA tutorials
+
+
+https://www.youtube.com/watch?v=eOBq__h4OJ4
+
+https://www.youtube.com/watch?v=2fWj3EKYalg
+
+https://www.youtube.com/watch?v=DcF7xgYEvQw&list=PLczBwDf63icwuBQrpzBJwG60aRVD4T3Ex&index=18
+
+https://www.youtube.com/watch?v=S8uczd9uUnM
+
+https://aws.amazon.com/sns/faqs/?nc1=h_ls
+
+
+
+
+
+
+
+
+
